@@ -2,7 +2,7 @@
     background-color: #F8F8FF;
 }
 .bg-slide{
-    background-color: #fceae8;
+    background-color: #fdeae9;
     border-radius: 10px;
 
 }
@@ -12,4 +12,16 @@
 /* Main Section */
 .category{
     border-radius: 10px;
+}
+.shoes{
+    width: 380px;
+}
+.shoe{
+    border-radius: 10px;
+}
+.card{
+    border:none;
+}
+.subs-color{
+    background-color: #fdeae9;
 }

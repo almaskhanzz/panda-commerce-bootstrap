@@ -14,7 +14,7 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
             <div class="container navbar-color p-lg-2">
                 <a class="navbar-brand" href="#">
                     <img src="images/logo.png" alt="" width="" height="">
@@ -30,10 +30,10 @@
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Shoes</a>
+                            <a class="nav-link active" aria-current="page" href="#shoes">Shoes</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Bagpack</a>
+                            <a class="nav-link active" aria-current="page" href="#backpack">Backpack</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#">Subscribe</a>
@@ -109,7 +109,8 @@
     </header>
     <!-- Main Section -->
     <main class="mt-lg-5 mt-md-5 mt-4">
-        <section class="container">
+        <!-- Category section -->
+        <section class="container mt-lg-4 mt-md-3 mt-3">
             <div class="row g-lg-4 g-md-3 g-2">
                 <div class="col-lg-4 col-md-6 col-12">
                     <div class="bg-danger d-flex justify-content-between align-items-center ps-lg-4 p-lg-2 category">
@@ -131,9 +132,117 @@
                 </div>
             </div>
         </section>
+        <!-- Shoes Section -->
+        <section class="container mt-lg-4 mt-md-3 mt-3" id="shoes">
+            <h1 class="pt-lg-5">Shoes</h1>
+            <div class="row row-cols-1 row-cols-md-2 g-lg-4 g-md-4 g-4">
+                <div class="col-lg-4 shadow-lg rounded-3">
+                    <div class="card h-100">
+                        <img src="images/shoes/shoe-1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Supply 350</h5>
+                            <p class="card-text">
+                                This is a longer card with supporting text below as a natural lead-in to
+                                additional.
+                            </p>
+                            <h4>$120</h4>
+                            <a class="btn btn-warning" href="">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 shadow-lg rounded-3">
+                    <div class="card h-100">
+                        <img src="images/shoes/shoe-2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Supply 350</h5>
+                            <p class="card-text">
+                                This is a longer card with supporting text below as a natural lead-in to
+                                additional.
+                            </p>
+                            <h4>$120</h4>
+                            <a class="btn btn-warning" href="">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 shadow-lg rounded-3">
+                    <div class="card h-100">
+                        <img src="images/shoes/shoe-3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Supply 350</h5>
+                            <p class="card-text">
+                                This is a longer card with supporting text below as a natural lead-in to
+                                additional.
+                            </p>
+                            <h4>$120</h4>
+                            <a class="btn btn-warning" href="">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Bag Section -->
+        <section class="container mt-lg-4 mt-md-3 mt-3" id="backpack">
+            <h1 class="pt-lg-5">Backpack</h1>
+            <div class="row row-cols-1 row-cols-md-2 g-lg-4 g-md-4 g-4">
+                <div class="col-lg-4 shadow-lg rounded-3">
+                    <div class="card h-100">
+                        <img src="images/bags/bag-1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Supply 350</h5>
+                            <p class="card-text">
+                                This is a longer card with supporting text below as a natural lead-in to
+                                additional.
+                            </p>
+                            <h4>$120</h4>
+                            <a class="btn btn-warning" href="">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 shadow-lg rounded-3">
+                    <div class="card h-100">
+                        <img src="images/bags/bag-2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Supply 350</h5>
+                            <p class="card-text">
+                                This is a longer card with supporting text below as a natural lead-in to
+                                additional.
+                            </p>
+                            <h4>$120</h4>
+                            <a class="btn btn-warning" href="">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 shadow-lg rounded-3">
+                    <div class="card h-100">
+                        <img src="images/bags/bag-3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Supply 350</h5>
+                            <p class="card-text">
+                                This is a longer card with supporting text below as a natural lead-in to
+                                additional.
+                            </p>
+                            <h4>$120</h4>
+                            <a class="btn btn-warning" href="">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Subscribe Section -->
+        <section style="height: 300px;"
+            class="container d-flex justify-content-center align-items-center subs-color rounded-3 my-5">
+            <div>
+                <h1>LET'S STAY IN TOUCH</h1>
+                <p>Get updates on sales, specials and more</p>
+                <input type="text" placeholder="Enter Your Email" name="" id="">
+                <br>
+                <br>
+                <button class="btn btn-danger">Submit</button>
+            </div>
+        </section>
     </main>
     <footer>
-
+        <p class="text-center"><small>©2020. Panda Commerce. All rights reserved. Sofia, Bulgaria.</small></p>
     </footer>
     <script src="js/bootstrap.bundle.min.js"></script>
 </body>
