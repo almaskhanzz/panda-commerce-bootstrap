@@ -1,0 +1,15 @@
+.navbar-color{
+    background-color: #F8F8FF;
+}
+.bg-slide{
+    background-color: #fceae8;
+    border-radius: 10px;
+
+}
+.carousel-item{
+    padding: 20px 40px;
+}
+/* Main Section */
+.category{
+    border-radius: 10px;
+}
