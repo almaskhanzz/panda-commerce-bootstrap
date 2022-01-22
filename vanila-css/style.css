@@ -9,6 +9,12 @@
 .carousel-item{
     padding: 20px 40px;
 }
+.price-colors{
+    color: #ff418d;
+}
+.btn-colors{
+    background-color: #ff418d;
+}
 /* Main Section */
 .category{
     border-radius: 10px;
